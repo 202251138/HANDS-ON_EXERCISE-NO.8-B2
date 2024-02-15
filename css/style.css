@@ -40,7 +40,7 @@ nav li {
   gap: 5px;
 }
 
-.postTitle {
+.posttitle{
   text-align: center;
   background-color: skyblue;
   padding: 30px 20px;
@@ -61,8 +61,6 @@ main {
   margin-top: 5px;
 }
 
-.sidebar,
-.ads,
 .otherStuffs {
   font-size: x-large;
   text-align: center;

@@ -37,7 +37,7 @@ nav li {
   padding: auto;
 }
 
-.ContaintContainer {
+.ContentContainer {
   display: grid;
   gap: 5px;
 }
@@ -108,16 +108,11 @@ main {
 .image {
   text-align: center;
   background-color: yellow;
-  margin: 0;
-  padding: 30px 20px;
-  height: 76px;
 }
 
 footer {
-  font-size: x-large;
-
   background-color: brown;
   padding: 22px;
-  margin-top: auto;
+  margin-top: 5px;
   width: 200%;
 }

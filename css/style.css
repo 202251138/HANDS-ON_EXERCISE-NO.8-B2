@@ -36,16 +36,17 @@ nav li{
   padding: auto;
 }
 
-.contentContainer{
+.contentcontainer{
   display: grid;
   gap: 5px;
 }
 
 .posttitle{
+   margin: 0;
+  padding: 0;
   background-color: skyblue;
-  padding: 30px 220px;
-  margin: 0;
-  margin-top: 5px;
+  margin: 5px;
+  display: grid;
 }
 
 main{
@@ -76,7 +77,7 @@ main{
   background-color: violet;
 }
 
-.metaContainer{
+.metacontainer{
   display: grid;
   grid-template-columns: auto auto;
   gap: 5px;
@@ -85,7 +86,7 @@ main{
 .postmeta{
   background-color: aquamarine;
   margin: 0;
-  padding: 180px 10px;
+ 
 }
 
 .content{
@@ -93,7 +94,7 @@ main{
   gap: 5px;
 }
 
-.mainContent{
+.maincontent{
   background-color: rgb(221, 220, 220);
   margin: 0;
 }

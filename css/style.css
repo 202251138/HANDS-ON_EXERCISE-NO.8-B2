@@ -1,24 +1,25 @@
-body {
+body{
   margin: 0;
   padding: 0;
   background-color: rgb(255, 255, 255);
+  margin: 5px;
   display: grid;
 }
 
-header {
+header{
   display: grid;
   overflow: hidden;
   grid-template-columns: auto auto;
-  gap: 5px; /* Corrected the grid */
+  gap: 5px;
 }
 
-header h1 {
+header h1{
   background-color: yellow;
   margin: 0;
   padding-top: 20px;
+  padding: 0;
 }
-
-nav ul {
+nav ul{
   margin: 0;
   padding: 0;
   display: grid;
@@ -27,94 +28,82 @@ nav ul {
   gap: 5px;
 }
 
-nav li {
-  font-size: x-large;
-  text-align: center;
+nav li{
   list-style-type: none;
   padding: 40px 2px;
   background-color: pink;
+  margin: 0;
+  padding: auto;
 }
 
-.content.Container {
+.contentContainer{
   display: grid;
   gap: 5px;
 }
 
 .posttitle{
-  text-align: center;
   background-color: skyblue;
-  padding: 30px 20px;
+  padding: 30px 220px;
   margin: 0;
   margin-top: 5px;
 }
 
-main {
+main{
   display: grid;
   grid-template-columns: auto auto;
   gap: 5px;
 }
 
-.bar {
+.bar{
   display: grid;
   grid-template-rows: auto auto auto;
   gap: 5px;
   margin-top: 5px;
 }
 
-.otherStuffs {
-  font-size: x-large;
-  text-align: center;
+.sidebar{
   padding: 70px 10px;
-}
-
-.sidebar {
   background-color: orange;
 }
 
-.ads {
+.ads{
   background-color: green;
+  padding: 70px 10px;
 }
 
-.otherStuffs {
+.others{
+  padding: 70px 10px;
   background-color: violet;
 }
 
-.metaContainer {
+.metaContainer{
   display: grid;
   grid-template-columns: auto auto;
   gap: 5px;
 }
 
-.postMeta {
-  text-align: center;
+.postmeta{
   background-color: aquamarine;
   margin: 0;
-  padding: 160px 40px;
+  padding: 180px 10px;
 }
 
-.content {
+.content{
   display: grid;
   gap: 5px;
 }
 
-mainContent {
-  text-align: center;
+.mainContent{
   background-color: rgb(221, 220, 220);
   margin: 0;
 }
 
-img {
-  text-align: center;
+.img{
   background-color: yellow;
-  margin-top: 0;
-  padding: 30px 20px;
-  height: 74%;
 }
 
-footer {
-  font-size: x-large;
+footer{
   background-color: rgb(129, 101, 101);
-  padding: 22px;
-  margin-top: auto;
-  width: 200%;
+  padding: 30px 10px;
+  margin-top: 5px;
 }

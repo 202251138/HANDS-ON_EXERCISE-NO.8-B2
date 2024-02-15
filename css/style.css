@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  display: grid;
+}
+
+header {
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+
+header h1 {
+  background-color: rgba(224, 224, 0, 0.835);
+  margin: 0;
+  padding-top: 20px;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+  gap: 5px;
+}
+nav li {
+  font-size: x-large;
+  text-align: center;
+  list-style-type: none;
+  padding: 40px 2px;
+}
+.ContaintContainer {
+  display: grid;
+  gap: 5px;
+}
+
+.PostTitle {
+  text-align: center;
+  background-color: skyblue;
+  padding: 30px 20px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.sidebar {
+  font-size: x-large;
+  text-align: center;
+  padding: 70px 10px;
+  background-color: orange;
+}
+
+.ads {
+  font-size: x-large;
+  text-align: center;
+  padding: 70px 10px;
+  background-color: green;
+}
+
+.other {
+  font-size: x-large;
+  text-align: center;
+  padding: 70px 10px;
+  background-color: pink;
+}
